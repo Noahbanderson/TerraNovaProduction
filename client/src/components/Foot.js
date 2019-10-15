@@ -11,7 +11,7 @@ import './styles/Foot.css'
 const Foot = () => (
   <>
 
-  {window.screen.availWidth > 500 ?
+  {window.screen.availWidth > 850 ?
 
     <div>
 
@@ -144,7 +144,7 @@ const Foot = () => (
 )
 
 const CustomDropdown = styled(Dropdown)`
-  width: 100%;
+  width: 200%;
   border: 0;
   font-family: 'Playfair Display', serif;
 `;
