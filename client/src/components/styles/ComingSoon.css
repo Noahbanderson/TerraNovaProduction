@@ -906,6 +906,77 @@
 @media screen and (max-width: 1500px) and (min-width: 1286px) { 
 
   .forest-image {
+    width: 110em;
+  }
+
+  .firstoverlay { 
+    display: flex;
+    justify-content: center;
+    color:white;
+    position:absolute;
+    font-size: 500%;
+    top: 30%;
+    width:100%;
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+
+  }
+
+  .secondoverlay { 
+    display: flex;
+    justify-content: center;
+    color:white;
+    position:absolute;
+    font-size: 250%;
+    top: 42%;
+    width:100%;
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+    
+  }
+
+  .thirdoverlay { 
+    display: flex;
+    justify-content: center;
+    color:white;
+    position:absolute;
+    font-size: 160%;
+    top: 54%;
+    width:100%;
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+    
+  }
+
+  .timeoverlay { 
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    position:absolute;
+    top:60%;
+    width:100%;
+    text-align:center;
+  }
+
+  .logooverlay { 
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    top: 58em;
+    width: 100em;
+
+  }
+}
+
+
+
+/* still need to do these ones */
+
+/* web 1680 by 1050 */
+@media screen and (max-width: 1700px) and (min-width: 1501px) { 
+
+  .forest-image {
     width: 115em;
   }
 
@@ -968,3 +1039,71 @@
     margin-left: 10em;
   }
 }
+
+/* web 1920 by 1200 */
+@media screen and (max-width: 1950px) and (min-width: 1701px) { 
+
+  .forest-image {
+    width: 115em;
+  }
+
+  .firstoverlay { 
+    display: flex;
+    justify-content: center;
+    color:white;
+    position:absolute;
+    font-size: 7em;
+    top: 2em;
+    width: 18.5em;
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+
+  }
+
+  .secondoverlay { 
+    display: flex;
+    justify-content: center;
+    color:white;
+    position:absolute;
+    font-size: 3em;
+    top: 7.5em;
+    width: 42em;
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+    
+  }
+
+  .thirdoverlay { 
+    display: flex;
+    justify-content: center;
+    color:white;
+    position:absolute;
+    font-size: 1.5em;
+    top: 20.5em;
+    width: 83em;
+    text-align:center;
+    font-family: 'Muli', sans-serif;
+    
+  }
+
+  .timeoverlay { 
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    position:absolute;
+    top: 34em;
+    width: 126em;
+    text-align:center;
+  }
+
+  .logooverlay { 
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    top: 60em;
+    width: 100em;
+    margin-left: 10em;
+  }
+}
+
